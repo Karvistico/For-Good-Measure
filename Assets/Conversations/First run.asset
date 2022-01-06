@@ -1,0 +1,371 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5e373d802544f3b90f235c7efebe5e1, type: 3}
+  m_Name: First run
+  m_EditorClassIdentifier: 
+  startNode:
+    <Guid>k__BackingField: 84328dbf-f213-47d9-a213-d3588c0d3d80
+    <NodeRect>k__BackingField:
+      serializedVersion: 2
+      x: 100
+      y: 106
+      width: 86
+      height: 40
+    name: Start
+  nodes:
+  - id: 0
+  - id: 1
+  - id: 2
+  - id: 3
+  - id: 4
+  - id: 5
+  - id: 6
+  - id: 7
+  - id: 8
+  - id: 9
+  - id: 10
+  - id: 11
+  - id: 12
+  - id: 13
+  - id: 14
+  edges:
+  - id: 15
+  - id: 16
+  - id: 17
+  - id: 18
+  - id: 19
+  - id: 20
+  - id: 21
+  - id: 22
+  - id: 23
+  - id: 24
+  - id: 25
+  - id: 26
+  - id: 27
+  - id: 28
+  - id: 29
+  properties:
+  - id: 30
+  stickyNotes: []
+  groups: []
+  references:
+    version: 1
+    00000000:
+      type: {class: MessageNode, ns: Conversa.Runtime.Nodes, asm: Conversa.Runtime}
+      data:
+        <Guid>k__BackingField: c47aba52-ff76-4a80-8470-abb0326b3ecd
+        <NodeRect>k__BackingField:
+          serializedVersion: 2
+          x: 211
+          y: 71
+          width: 208
+          height: 135
+        actor: A
+        message: Donde esta la biblioteca
+    00000001:
+      type: {class: MessageNode, ns: Conversa.Runtime.Nodes, asm: Conversa.Runtime}
+      data:
+        <Guid>k__BackingField: f2478186-4fac-4de8-9ba5-a78268762536
+        <NodeRect>k__BackingField:
+          serializedVersion: 2
+          x: 890
+          y: 77
+          width: 208
+          height: 150
+        actor: A
+        message: "Me llamo T-Bone la ara\xF1a discoteca"
+    00000002:
+      type: {class: MessageNode, ns: Conversa.Runtime.Nodes, asm: Conversa.Runtime}
+      data:
+        <Guid>k__BackingField: 36f8ff43-7037-4af7-831e-9c74bf903219
+        <NodeRect>k__BackingField:
+          serializedVersion: 2
+          x: 461
+          y: 71
+          width: 208
+          height: 135
+        actor: B
+        message: '[Beatboxing noises]'
+    00000003:
+      type: {class: MessageNode, ns: Conversa.Runtime.Nodes, asm: Conversa.Runtime}
+      data:
+        <Guid>k__BackingField: b1d5eac2-d464-40c1-b1d4-56b5dbcf0219
+        <NodeRect>k__BackingField:
+          serializedVersion: 2
+          x: 1132
+          y: 75
+          width: 208
+          height: 135
+        actor: B
+        message: '[More beatboxing]'
+    00000004:
+      type: {class: MessageNode, ns: Conversa.Runtime.Nodes, asm: Conversa.Runtime}
+      data:
+        <Guid>k__BackingField: 63e78a5e-1119-4cd0-9bbc-e010fe455c8e
+        <NodeRect>k__BackingField:
+          serializedVersion: 2
+          x: 1477
+          y: 81
+          width: 208
+          height: 135
+        actor: B
+        message: Discoteca
+    00000005:
+      type: {class: MessageNode, ns: Conversa.Runtime.Nodes, asm: Conversa.Runtime}
+      data:
+        <Guid>k__BackingField: 90b931c7-4ad2-4de3-adaf-564faab277e5
+        <NodeRect>k__BackingField:
+          serializedVersion: 2
+          x: 1744
+          y: 76
+          width: 208
+          height: 135
+        actor: B
+        message: Munyeca
+    00000006:
+      type: {class: MessageNode, ns: Conversa.Runtime.Nodes, asm: Conversa.Runtime}
+      data:
+        <Guid>k__BackingField: 39e69002-1bb4-43bc-80bd-5031717da071
+        <NodeRect>k__BackingField:
+          serializedVersion: 2
+          x: 2081
+          y: 85
+          width: 208
+          height: 135
+        actor: A
+        message: LA BIBLIOTECA!
+    00000007:
+      type: {class: MessageNode, ns: Conversa.Runtime.Nodes, asm: Conversa.Runtime}
+      data:
+        <Guid>k__BackingField: 99e8e389-2ae9-4cde-b386-ef7d52e370a4
+        <NodeRect>k__BackingField:
+          serializedVersion: 2
+          x: 2323
+          y: 83
+          width: 208
+          height: 135
+        actor: B
+        message: LA BIBLIOTECA!
+    00000008:
+      type: {class: MessageNode, ns: Conversa.Runtime.Nodes, asm: Conversa.Runtime}
+      data:
+        <Guid>k__BackingField: 628021b2-e890-4008-9c8b-d481aee35979
+        <NodeRect>k__BackingField:
+          serializedVersion: 2
+          x: 2684
+          y: 76
+          width: 208
+          height: 135
+        actor: A
+        message: Es en bigote grande --
+    00000009:
+      type: {class: MessageNode, ns: Conversa.Runtime.Nodes, asm: Conversa.Runtime}
+      data:
+        <Guid>k__BackingField: 1b67e110-1990-46e2-aeb2-d2b37ad07e22
+        <NodeRect>k__BackingField:
+          serializedVersion: 2
+          x: 2921
+          y: 67
+          width: 208
+          height: 135
+        actor: B
+        message: Perro Manteca
+    0000000A:
+      type: {class: PauseNode, ns: Conversa.Runtime.Nodes, asm: Assembly-CSharp}
+      data:
+        <Guid>k__BackingField: 27bcd5e2-1ebe-49dc-81d5-b838b4bc35ef
+        <NodeRect>k__BackingField:
+          serializedVersion: 2
+          x: 672
+          y: -6
+          width: 144
+          height: 77
+    0000000B:
+      type: {class: PauseNode, ns: Conversa.Runtime.Nodes, asm: Assembly-CSharp}
+      data:
+        <Guid>k__BackingField: b6729f7a-4c49-4cf0-9d04-2153cafb86c7
+        <NodeRect>k__BackingField:
+          serializedVersion: 2
+          x: 1331.7574
+          y: -27.77251
+          width: NaN
+          height: NaN
+    0000000C:
+      type: {class: PauseNode, ns: Conversa.Runtime.Nodes, asm: Assembly-CSharp}
+      data:
+        <Guid>k__BackingField: 4df4dcbb-af43-45f0-a7d3-2b8dfc0436fe
+        <NodeRect>k__BackingField:
+          serializedVersion: 2
+          x: 1954
+          y: -52
+          width: 144
+          height: 77
+    0000000D:
+      type: {class: PauseNode, ns: Conversa.Runtime.Nodes, asm: Assembly-CSharp}
+      data:
+        <Guid>k__BackingField: 77951f00-a4cc-48aa-ab60-c5592527e35d
+        <NodeRect>k__BackingField:
+          serializedVersion: 2
+          x: 1630
+          y: -13
+          width: 144
+          height: 77
+    0000000E:
+      type: {class: PauseNode, ns: Conversa.Runtime.Nodes, asm: Assembly-CSharp}
+      data:
+        <Guid>k__BackingField: 0fb50356-e2f7-424e-a71b-109444cf45da
+        <NodeRect>k__BackingField:
+          serializedVersion: 2
+          x: 2498
+          y: -34
+          width: 144
+          height: 77
+    0000000F:
+      type: {class: EdgeData, ns: Conversa.Runtime, asm: Conversa.Runtime}
+      data:
+        output:
+          node: f2478186-4fac-4de8-9ba5-a78268762536
+          port: next
+        input:
+          node: b1d5eac2-d464-40c1-b1d4-56b5dbcf0219
+          port: previous
+    00000010:
+      type: {class: EdgeData, ns: Conversa.Runtime, asm: Conversa.Runtime}
+      data:
+        output:
+          node: 84328dbf-f213-47d9-a213-d3588c0d3d80
+          port: next
+        input:
+          node: c47aba52-ff76-4a80-8470-abb0326b3ecd
+          port: previous
+    00000011:
+      type: {class: EdgeData, ns: Conversa.Runtime, asm: Conversa.Runtime}
+      data:
+        output:
+          node: c47aba52-ff76-4a80-8470-abb0326b3ecd
+          port: next
+        input:
+          node: 36f8ff43-7037-4af7-831e-9c74bf903219
+          port: previous
+    00000012:
+      type: {class: EdgeData, ns: Conversa.Runtime, asm: Conversa.Runtime}
+      data:
+        output:
+          node: 39e69002-1bb4-43bc-80bd-5031717da071
+          port: next
+        input:
+          node: 99e8e389-2ae9-4cde-b386-ef7d52e370a4
+          port: previous
+    00000013:
+      type: {class: EdgeData, ns: Conversa.Runtime, asm: Conversa.Runtime}
+      data:
+        output:
+          node: 628021b2-e890-4008-9c8b-d481aee35979
+          port: next
+        input:
+          node: 1b67e110-1990-46e2-aeb2-d2b37ad07e22
+          port: previous
+    00000014:
+      type: {class: EdgeData, ns: Conversa.Runtime, asm: Conversa.Runtime}
+      data:
+        output:
+          node: 36f8ff43-7037-4af7-831e-9c74bf903219
+          port: next
+        input:
+          node: 27bcd5e2-1ebe-49dc-81d5-b838b4bc35ef
+          port: previous
+    00000015:
+      type: {class: EdgeData, ns: Conversa.Runtime, asm: Conversa.Runtime}
+      data:
+        output:
+          node: 27bcd5e2-1ebe-49dc-81d5-b838b4bc35ef
+          port: next
+        input:
+          node: f2478186-4fac-4de8-9ba5-a78268762536
+          port: previous
+    00000016:
+      type: {class: EdgeData, ns: Conversa.Runtime, asm: Conversa.Runtime}
+      data:
+        output:
+          node: b1d5eac2-d464-40c1-b1d4-56b5dbcf0219
+          port: next
+        input:
+          node: b6729f7a-4c49-4cf0-9d04-2153cafb86c7
+          port: previous
+    00000017:
+      type: {class: EdgeData, ns: Conversa.Runtime, asm: Conversa.Runtime}
+      data:
+        output:
+          node: b6729f7a-4c49-4cf0-9d04-2153cafb86c7
+          port: next
+        input:
+          node: 63e78a5e-1119-4cd0-9bbc-e010fe455c8e
+          port: previous
+    00000018:
+      type: {class: EdgeData, ns: Conversa.Runtime, asm: Conversa.Runtime}
+      data:
+        output:
+          node: 90b931c7-4ad2-4de3-adaf-564faab277e5
+          port: next
+        input:
+          node: 4df4dcbb-af43-45f0-a7d3-2b8dfc0436fe
+          port: previous
+    00000019:
+      type: {class: EdgeData, ns: Conversa.Runtime, asm: Conversa.Runtime}
+      data:
+        output:
+          node: 4df4dcbb-af43-45f0-a7d3-2b8dfc0436fe
+          port: next
+        input:
+          node: 39e69002-1bb4-43bc-80bd-5031717da071
+          port: previous
+    0000001A:
+      type: {class: EdgeData, ns: Conversa.Runtime, asm: Conversa.Runtime}
+      data:
+        output:
+          node: 63e78a5e-1119-4cd0-9bbc-e010fe455c8e
+          port: next
+        input:
+          node: 77951f00-a4cc-48aa-ab60-c5592527e35d
+          port: previous
+    0000001B:
+      type: {class: EdgeData, ns: Conversa.Runtime, asm: Conversa.Runtime}
+      data:
+        output:
+          node: 77951f00-a4cc-48aa-ab60-c5592527e35d
+          port: next
+        input:
+          node: 90b931c7-4ad2-4de3-adaf-564faab277e5
+          port: previous
+    0000001C:
+      type: {class: EdgeData, ns: Conversa.Runtime, asm: Conversa.Runtime}
+      data:
+        output:
+          node: 99e8e389-2ae9-4cde-b386-ef7d52e370a4
+          port: next
+        input:
+          node: 0fb50356-e2f7-424e-a71b-109444cf45da
+          port: previous
+    0000001D:
+      type: {class: EdgeData, ns: Conversa.Runtime, asm: Conversa.Runtime}
+      data:
+        output:
+          node: 0fb50356-e2f7-424e-a71b-109444cf45da
+          port: next
+        input:
+          node: 628021b2-e890-4008-9c8b-d481aee35979
+          port: previous
+    0000001E:
+      type: {class: EventProperty, ns: Conversa.Runtime.Properties, asm: Conversa.Runtime}
+      data:
+        <Guid>k__BackingField: d437d59a-f234-462c-89dc-b2f36b2df12c
+        name: PauseEvent

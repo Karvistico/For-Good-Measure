@@ -1,0 +1,13 @@
+<UXML xmlns="UnityEngine.UIElements">
+    <Style src="./MessageNode.uss" />
+
+    <Label text="Message" class="h1 mb-s" />
+
+    <VisualElement class="mb-s">
+    <Label text="Actor" class="indent mb-xs bold" />
+    <TextField name="actor"  />
+    </VisualElement>
+
+    <Label text="Message" class="indent mb-xs bold" />
+    <TextField name="body" multiline="true" class="text-wrap" />
+</UXML>

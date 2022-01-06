@@ -1,0 +1,20 @@
+<UXML xmlns="UnityEngine.UIElements">
+    <Style src="./ChoiceNode.uss" />
+    
+    <Label text="Choice" class="h1 mb-s" />
+
+    <VisualElement class="mb-s">
+        <Label text="Actor" class="indent mb-xs bold" />
+        <TextField name="actor"/>
+    </VisualElement>
+
+    <VisualElement class="mb-s">
+        <Label text="Message" class="indent mb-xs bold" />
+        <TextField name="message"/>
+    </VisualElement>
+
+    <Label text="Choices" class="indent mb-xs bold" />
+    <VisualElement class="option-list" />
+
+    <Button text="+ Add new option" class="add-option" />
+</UXML>
