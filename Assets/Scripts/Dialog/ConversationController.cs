@@ -49,6 +49,11 @@ public class ConversationController : MonoBehaviour
                 HandlePauseEvent(pauseEvent);
                 break;
 
+            case DelayEvent delayEvent:
+                Debug.Log("<color=yellow>Delay Event</color>: " + delayEvent.Value);
+                delayEvent.Advance();
+                break;
+
             //Let's crack simple messages first...
             /*
             case ChoiceEvent choiceEvent:
