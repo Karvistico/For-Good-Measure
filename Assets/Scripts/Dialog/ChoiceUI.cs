@@ -18,34 +18,50 @@ public class OptionButtonData
 
 public class ChoiceUI : MonoBehaviour
 {
-    public GameObject buttonPrefab;
-    public GameObject panel;
+    public GameObject leftContainer;
+    public GameObject rightContainer;
+    public GameObject topContainer;
+    public GameObject choiceTitle;
 
     private void ClearPanel()
     {
-        foreach (Transform child in panel.transform)
-            Destroy(child.gameObject);
+        choiceTitle.GetComponent<TextMeshProUGUI>().text = "";
+        leftContainer.SetActive(false);
+        rightContainer.SetActive(false);
+        topContainer.SetActive(false);
+        //foreach (Transform child in choiceContainer.transform)
+        //    Destroy(child.gameObject);
     }
 
-    public void ShowOptions(OptionButtonData[] options)
+    public void ShowOptions(string message, OptionButtonData[] options)
     {
+        //Reset state of option panels
         ClearPanel();
+        int optionCount = 0;
+        choiceTitle.GetComponent<TextMeshProUGUI>().text = message;
+        GameObject target;
 
         foreach (var option in options)
         {
-            ShowOption(option);
+            target = leftContainer;
+            if (optionCount==1)
+                target = rightContainer;
+            if (optionCount==2)
+                target = topContainer;
+            ShowOption(option, target);
+            optionCount++;
         }
-
-        panel.SetActive(true);
+        gameObject.transform.GetChild(0).gameObject.SetActive(true);
     }
 
-    private void ShowOption(OptionButtonData option)
+    private void ShowOption(OptionButtonData option, GameObject target)
     {
-        GameObject instance = Instantiate(buttonPrefab, panel.transform, true);
-        instance.GetComponentInChildren<TextMeshProUGUI>().text = option.text;
-        instance.GetComponent<Button>().onClick.AddListener(() =>
+        target.SetActive(true);
+        target.transform.Find("Content Panel").GetComponentInChildren<TextMeshProUGUI>().text = option.text;
+        Debug.Log(target.transform.Find("Content Panel"));
+        target.transform.Find("Content Panel").GetComponent<Button>().onClick.AddListener(() =>
         {
-            panel.SetActive(false);
+            gameObject.transform.GetChild(0).gameObject.SetActive(false);
             option.action.Invoke();
         });
     }

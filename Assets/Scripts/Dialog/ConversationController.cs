@@ -55,12 +55,10 @@ public class ConversationController : MonoBehaviour
                 break;
 
             //Let's crack simple messages first...
-            /*
             case ChoiceEvent choiceEvent:
                 Debug.Log("<color=yellow>Choice Event</color>");
                 HandleChoiceEvent(choiceEvent);
                 break;
-            */
 
             case EndEvent _:
                 HandleEndEvent();
@@ -98,11 +96,10 @@ public class ConversationController : MonoBehaviour
         startConversationButton.interactable = true; //This just helps me see when convo is finished. To delete later.
     }
 
-    /*
     private void HandleChoiceEvent(ChoiceEvent e)
     {
         var options = e.Options.Select(x => new OptionButtonData(x.Message, x.Advance)).ToArray();
-        choiceUI.ShowOptions(options);
+        choiceUI.ShowOptions(e.Message, options);
     }
-    */
+    
 }
